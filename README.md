@@ -73,10 +73,10 @@ This image expects you to add your own necessary code/files inside this structur
 
 The configurations for nginx and other components are very generic and probably should be overwritten in derived images:
 
-* /app/etc/nginx/nginx.conf
-* /app/etc/php/php.ini (PHP versions only)
-* /app/etc/php/php-fpm.conf (PHP versions only)
-* /app/etc/supervisor/conf.d/supervisord.conf (PHP versions only)
+* [`/app/etc/nginx/nginx.conf`] (https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/nginx/nginx.conf)
+* [`/app/etc/php/php.ini`] (https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/php/php.ini) (PHP versions only)
+* [`/app/etc/php/php-fpm.conf`] (https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/php/php-fpm.conf) (PHP versions only)
+* [`/app/etc/supervisor/conf.d/supervisord.conf`] (https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/supervisor/conf.d/supervisord.conf) (PHP versions only)
 
 Your CMD line would look like this:
 
