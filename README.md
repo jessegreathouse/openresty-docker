@@ -60,7 +60,7 @@ The bin folder: /app/bin is added to $PATH and will have symlinks to relevant bi
 * /app/bin/php (PHP versions only)
 * /app/bin/phpize (PHP versions only)
 * /app/bin/pecl (PHP versions only)
-* /app/bin/perl (PHP versions only)
+* /app/bin/pear (PHP versions only)
 
 This image expects you to add your own necessary code/files inside this structure, for example:
 
