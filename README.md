@@ -2,13 +2,13 @@
 
 ## Supported tags `Dockerfile` links
 
-    [`openresty:1.9.15-alpine`,  (*openresty:1.9.15-alpine/Dockerfile*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty:1.9.15-alpine/blob/master/alpine/Dockerfile)
-    [`openresty-node:4.4.7-alpine`,  (*openresty-node:4.4.7-alpine/Dockerfile*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-node:4.4.7-alpine/blob/master/alpine/Dockerfile)
-    [`openresty-node:6.2.2-alpine`,  (*openresty-node:6.2.2-alpine/Dockerfile*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-node:6.2.2-alpine/blob/master/alpine/Dockerfile)
-    [`openresty-php:7.0.7-alpine`,  (*openresty-php:7.0.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-php:7.0.7-alpine/blob/master/alpine/Dockerfile)
-    [`openresty-php:7.0.7-minimal-alpine`,  (*openresty-php:7.0.7-minimal-alpine*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-php:7.0.7-minimal-alpine/blob/master/alpine/Dockerfile)
-    [`openresty-node-php:7.0.7-node-4.4.7-alpine`,  (*openresty-node-php:7.0.7-node-4.4.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-node-php:7.0.7-node-4.4.7-alpine/blob/master/alpine/Dockerfile)
-    [`openresty-node-php:7.0.7-node-6.2.2-alpine`,  (*openresty-node-php:7.0.7-node-6.2.2-alpine*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-node-php:7.0.7-node-6.2.2-alpine/blob/master/alpine/Dockerfile)
+-   [`openresty:1.9.15-alpine`,  (*openresty:1.9.15-alpine/Dockerfile*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty:1.9.15-alpine/blob/master/alpine/Dockerfile)
+-   [`openresty-node:4.4.7-alpine`,  (*openresty-node:4.4.7-alpine/Dockerfile*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-node:4.4.7-alpine/blob/master/alpine/Dockerfile)
+-   [`openresty-node:6.2.2-alpine`,  (*openresty-node:6.2.2-alpine/Dockerfile*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-node:6.2.2-alpine/blob/master/alpine/Dockerfile)
+-   [`openresty-php:7.0.7-alpine`,  (*openresty-php:7.0.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-php:7.0.7-alpine/blob/master/alpine/Dockerfile)
+-   [`openresty-php:7.0.7-minimal-alpine`,  (*openresty-php:7.0.7-minimal-alpine*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-php:7.0.7-minimal-alpine/blob/master/alpine/Dockerfile)
+-   [`openresty-node-php:7.0.7-node-4.4.7-alpine`,  (*openresty-node-php:7.0.7-node-4.4.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-node-php:7.0.7-node-4.4.7-alpine/blob/master/alpine/Dockerfile)
+-   [`openresty-node-php:7.0.7-node-6.2.2-alpine`,  (*openresty-node-php:7.0.7-node-6.2.2-alpine*)](https://github.com/jessegreathouse/openresty-docker/versions/openresty-node-php:7.0.7-node-6.2.2-alpine/blob/master/alpine/Dockerfile)
     
 
 Table of Contents
