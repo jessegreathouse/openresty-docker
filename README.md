@@ -26,14 +26,11 @@ Table of Contents
 
 Overview
 ===========
-The appeal to this brand of openresty based web server is the application layout, and layering in of PHP, Node.Js or both
+The appeal to this openresty-docker distro is the application layout, and layering in of PHP, Node.Js or both. 
+A sensible project layout where everything stems from the root /app folder. With this layout you can feel confident and 
+truly have mastery over the configuration of your project. 
 
-I have multiple production applications using this app layout and it has gone through an interesting evolution since its 
-conception. Through this repository I'm providing the fruits of that labor. A sensible project layout where everything 
-stems from the root /app folder, including the components like openresty/nginx, php and Node.js
-
-With this layout you can feel confident and truly have mastery over the configuration of your project. What this is not,
-is an image to run your app with zero configuration. The image comes with a generic nginx (php, php-fpm, supervisor) 
+What this is not,is an image to run your app with zero configuration. The image comes with a generic nginx (php, php-fpm, supervisor) 
 configuration, however even if you can manage to use these generic configurations, you probably shouldn't. See the Next 
 section for more information.
 
@@ -55,8 +52,8 @@ The structure is as follows:
 * /app/opt
 * /app/opt/openresty
 * /app/opt/openresty/nginx
-* /app/opt/openresty/node (Node.js versions only)
-* /app/opt/openresty/php (PHP versions only)
+* /app/opt/node (Node.js versions only)
+* /app/opt/php (PHP versions only)
 
 The bin folder: /app/bin is added to $PATH and will have symlinks to relevant binaries:
 
