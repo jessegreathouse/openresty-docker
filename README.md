@@ -2,17 +2,17 @@
 
 ## Supported tags `Dockerfile` links
 
--   [`jessegreathouse/openresty:1.9.15-alpine`, (*openresty:1.9.15-alpine/Dockerfile*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty:1.9.15-alpine/Dockerfile)
--   [`jessegreathouse/openresty-node:4.4.7-alpine`, (*openresty-node:4.4.7-alpine/Dockerfile*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node:4.4.7-alpine/Dockerfile)
--   [`jessegreathouse/openresty-node:6.2.2-alpine`, (*openresty-node:6.2.2-alpine/Dockerfile*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node:6.2.2-alpine/Dockerfile)
--   [`jessegreathouse/openresty-php:7.0.7-alpine`, (*openresty-php:7.0.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/Dockerfile)
--   [`jessegreathouse/openresty-php:7.0.7-minimal-alpine`,  (*openresty-php:7.0.7-minimal-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-minimal-alpine/Dockerfile)
--   [`jessegreathouse/openresty-node-php:7.0.7-node-4.4.7-alpine`, (*openresty-node-php:7.0.7-node-4.4.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node-php:7.0.7-node-4.4.7-alpine/Dockerfile)
--   [`jessegreathouse/openresty-node-php:7.0.7-node-6.2.2-alpine`, (*openresty-node-php:7.0.7-node-6.2.2-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node-php:7.0.7-node-6.2.2-alpine/Dockerfile)
+-   [`1.9.15-alpine`, (*jessegreathouse/openresty:1.9.15-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty:1.9.15-alpine/Dockerfile)
+-   [`4.4.7-alpine`, (*jessegreathouse/openresty-node:4.4.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node:4.4.7-alpine/Dockerfile)
+-   [`6.2.2-alpine`, (*jessegreathouse/openresty-node:6.2.2-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node:6.2.2-alpine/Dockerfile)
+-   [`7.0.7-alpine`, (*jessegreathouse/openresty-php:7.0.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/Dockerfile)
+-   [`7.0.7-minimal-alpine`,  (*jessegreathouse/openresty-php:7.0.7-minimal-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-minimal-alpine/Dockerfile)
+-   [`7.0.7-node-4.4.7-alpine`, (*jessegreathouse/openresty-node-php:7.0.7-node-4.4.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node-php:7.0.7-node-4.4.7-alpine/Dockerfile)
+-   [`7.0.7-node-6.2.2-alpine`, (*jessegreathouse/openresty-node-php:7.0.7-node-6.2.2-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node-php:7.0.7-node-6.2.2-alpine/Dockerfile)
 
 ## Docker Hub links
 
--   [`jessegreathouse/openresty`] (https://hub.docker.com/r/jessegreathouse/openresty/)
+-   [`jessegreathouse/openresty`](https://hub.docker.com/r/jessegreathouse/openresty/)
 -   [`jessegreathouse/openresty-node`](https://hub.docker.com/r/jessegreathouse/openresty-node/)
 -   [`jessegreathouse/openresty-php`](https://hub.docker.com/r/jessegreathouse/openresty-php/)
 -   [`jessegreathouse/openresty-node-php`](https://hub.docker.com/r/jessegreathouse/openresty-node-php/)
@@ -73,10 +73,10 @@ This image expects you to add your own necessary code/files inside this structur
 
 The configurations for nginx and other components are very generic and probably should be overwritten in derived images:
 
-* [`/app/etc/nginx/nginx.conf`] (https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/nginx/nginx.conf)
-* [`/app/etc/php/php.ini`] (https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/php/php.ini) (PHP versions only)
-* [`/app/etc/php/php-fpm.conf`] (https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/php/php-fpm.conf) (PHP versions only)
-* [`/app/etc/supervisor/conf.d/supervisord.conf`] (https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/supervisor/conf.d/supervisord.conf) (PHP versions only)
+* [`/app/etc/nginx/nginx.conf`](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/nginx/nginx.conf)
+* [`/app/etc/php/php.ini`](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/php/php.ini) (PHP versions only)
+* [`/app/etc/php/php-fpm.conf`](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/php/php-fpm.conf) (PHP versions only)
+* [`/app/etc/supervisor/conf.d/supervisord.conf`](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/etc/supervisor/conf.d/supervisord.conf) (PHP versions only)
 
 Your CMD line would look like this:
 
