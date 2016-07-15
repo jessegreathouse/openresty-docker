@@ -1,0 +1,6 @@
+export RELEASE="v6.3.0-alpine"
+export MIRROR=""
+export PACKAGES=""
+export BUILD_OPTIONS=(-b -s -c -t UTC -r $RELEASE -m $MIRROR -p $PACKAGES)
+export TAGS=(jessegreathouse/openresty-node:6.3.0-alpine, openresty-node:6.3.0-alpine)
+export PUSH_IMAGE="true"

@@ -5,10 +5,12 @@
 -   [`1.9.15-alpine`, (*jessegreathouse/openresty:1.9.15-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty:1.9.15-alpine/Dockerfile)
 -   [`4.4.7-alpine`, (*jessegreathouse/openresty-node:4.4.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node:4.4.7-alpine/Dockerfile)
 -   [`6.2.2-alpine`, (*jessegreathouse/openresty-node:6.2.2-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node:6.2.2-alpine/Dockerfile)
+-   [`6.3.0-alpine`, (*jessegreathouse/openresty-node:6.3.0-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node:6.3.0-alpine/Dockerfile)
 -   [`7.0.7-alpine`, (*jessegreathouse/openresty-php:7.0.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-alpine/Dockerfile)
 -   [`7.0.7-minimal-alpine`,  (*jessegreathouse/openresty-php:7.0.7-minimal-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-php:7.0.7-minimal-alpine/Dockerfile)
 -   [`7.0.7-node-4.4.7-alpine`, (*jessegreathouse/openresty-node-php:7.0.7-node-4.4.7-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node-php:7.0.7-node-4.4.7-alpine/Dockerfile)
 -   [`7.0.7-node-6.2.2-alpine`, (*jessegreathouse/openresty-node-php:7.0.7-node-6.2.2-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node-php:7.0.7-node-6.2.2-alpine/Dockerfile)
+-   [`7.0.7-node-6.3.0-alpine`, (*jessegreathouse/openresty-node-php:7.0.7-node-6.3.0-alpine*)](https://github.com/jessegreathouse/openresty-docker/blob/master/versions/openresty-node-php:7.0.7-node-6.3.0-alpine/Dockerfile)
 
 ## Docker Hub links
 
@@ -26,13 +28,9 @@ Table of Contents
 
 Overview
 ===========
-The appeal to this openresty-docker distro is the application layout, and layering in of PHP, Node.Js or both. 
-A sensible project layout where everything stems from the root /app folder. With this layout you can feel confident and 
-truly have mastery over the configuration of your project. 
+The appeal to this openresty-docker distro is the application layout, and layering in of PHP, Node.Js or both. A sensible project layout where everything stems from the root /app folder. With this layout you can feel confident and truly have mastery over the configuration of your project. 
 
-What this is not,is an image to run your app with zero configuration. The image comes with a generic nginx (php, php-fpm, supervisor) 
-configuration, however even if you can manage to use these generic configurations, you probably shouldn't. See the Next 
-section for more information.
+What this is not,is an image to run your app with zero configuration. The image comes with a generic nginx (php, php-fpm, supervisor) configuration, however even if you can manage to use these generic configurations, you probably shouldn't. See the Next section for more information.
 
 Directions
 ===========
